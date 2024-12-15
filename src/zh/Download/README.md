@@ -190,7 +190,7 @@ for(int i = 0; i <= values.length; i++){
 
 查询 root.sg.a 的数据，可以看到没有做反转义处理：
 
-```Plain%20Text
+```
 // 查询结果
 +-----------------------------+---------+
 |                         Time|root.sg.a|
@@ -214,7 +214,7 @@ insert into root.sg(time, a) values(4, "\u96d5")
 
 查询 root.sg.a 的数据，可以看到字符串进行了反转义：
 
-```Plain%20Text
+```
 // 查询结果
 +-----------------------------+---------+
 |                         Time|root.sg.a|

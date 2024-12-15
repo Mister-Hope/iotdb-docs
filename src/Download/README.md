@@ -190,7 +190,7 @@ for(int i = 0; i <= values.length; i++){
 
 Query the data of root.sg.a, you can see that there is no unescaping:
 
-```Plain%20Text
+```
 // query result
 +-----------------------------+---------+
 |                         Time|root.sg.a|
@@ -214,7 +214,7 @@ insert into root.sg(time, a) values(4, "\u96d5")
 
 Query the data of root.sg.a, you can see that the string is unescaped:
 
-```Plain%20Text
+```
 // query result
 +-----------------------------+---------+
 |                         Time|root.sg.a|
