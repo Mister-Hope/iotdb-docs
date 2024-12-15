@@ -4,7 +4,12 @@ import { config, plugin, configs as tsConfigs } from "typescript-eslint";
 
 export default config(
   {
-    ignores: ["/dist", "/node_modules", "/public", "!src/.vuepress"],
+    ignores: [
+      "dist/**",
+      "node_modules/**",
+      "!src/.vuepress/**",
+      ".vuepress/public/**",
+    ],
   },
 
   {
